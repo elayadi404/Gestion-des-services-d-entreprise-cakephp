@@ -1,0 +1,294 @@
+.div889{
+    border: 7px solid;
+    padding: 0px;
+       /* border-color:#e0f7fa;*/
+    border-color:#e6e6e6;
+    background-color: beige;
+    
+
+    
+}
+
+.google-map-1{
+    border-width:10px;
+    height: 100%;
+    border-color:aqua;
+
+    
+}
+#slider{
+    height: 500px  !important;
+    width: 100%;
+        text-align: center;
+    
+ 
+
+}
+
+.copc{
+    text-align: left;
+    
+   color: #3b3c40;
+font-family: "Open Sans",arial,sans-serif;
+line-height: 1.5;
+        font-size: 15px;
+
+}
+.copc2{
+    text-align: left;
+    color:black;
+    font-size: 15px;
+    font-family: fantasy;
+    
+    
+}
+
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+body { margin: 0; } 
+div#slider { overflow: hidden; }
+div#slider figure img { width: 20%; float: left; }
+div#slider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite; 
+}
+.affichslider{
+    height: 90% !important;
+    width: 100%;
+    
+}
+
+
+
+@keyframes AutoSlide {
+	0% {
+		left: 0px; /*1ère image*/
+	}
+	15% {
+		left: 0px; /*idem pour attente*/
+	}
+	35% {
+		left: -800px; /*2ème image*/
+	}
+	50% {
+		left: -800px; /*idem pour attente*/
+	}
+	70% {
+		left: -300px; /*3ème image*/
+	}
+	85% {
+		left: -300px; /*idem pour attente*/
+	}
+	100% {
+		left: 0px; /*1ère image*/
+	}
+}
+@keyframes AutoSlide {
+	0%, 15%, 100% {
+		left: 0px; /*1ère image*/
+	}
+	35%, 50% {
+		left: -800px; /*2ème image*/
+	}
+	70%, 85% {
+		left: -300px; /*3ème image*/
+	}
+}
+
+#slideshow {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	margin:  20px auto;
+	overflow: hidden;
+}
+#sContent li {
+	display: inline;
+}
+#sContent {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 450px;
+	margin: 0;            
+	padding: 0;
+	
+	/*CSS3 keyframes animation*/
+	animation-name: AutoSlide;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+
+
+
+
+/* The alert159 message box */
+
+
+.alert159 {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    opacity: 1;
+    transition: opacity 0.6s;
+    margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn159 {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.alert159.success {background-color: #4CAF50;}
+.alert159.info {background-color: #2196F3;}
+.alert159.warning {background-color: #ff9800;}
+
+/* When moving the mouse over the close button */
+.closebtn159:hover {
+    color: black;
+} 
+
+
+
+
+
+
+.div881{
+background-color:827717;       
+}
+.div882{
+background-color:#E6EE9C !important;       
+    padding:1rem !important;
+    background: linear-gradient(#4dd0e1, #b2ebf2) !important; 
+background-position:50% 50%;}
+.div883{
+    background-color: transparent;
+}
+.div884{
+   
+background-color:#bbdefb; 
+     background: linear-gradient(#4dd0e1, #e0f7fa)  !important ; 
+     background-image: url('img-tool/bgcopie.png') ;
+    text-align: center;
+
+}
+body{
+    background-image: url('img-tool/bubbelseffect.png')!important;       
+
+}
+.div885{
+        background-color:beige;
+        border: 7px solid ;
+    border-color:#e6e6e6;
+    
+    min-height: 450px;
+
+    
+    
+}
+.img-icon{
+    width: 30px;
+    height: 30px;
+}
+.showscal:hover{
+    -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+    color: black !important;
+    
+}
+.fonta{
+    color: black;
+  
+    
+}
+
+.img-icon2{
+      height: 40px;
+    width: 40px;
+     left: 0px; 
+	 top: 0px; 
+	 position: absolute; 
+	
+    
+}
+.span123{
+     left: 40px; 
+	 top: 15px; 
+    position: absolute; 
+        color: black;
+
+    
+}
+showicon
+
+
+
+.wifeo_pagemenu >
+ a{color:#FFFFFF;text-decoration:none;text-align: center;} 
+ .wifeo_pagemenu:hover > a{color:#FFFFFF;text-decoration:none;font-weight:bold} 
+ .wifeo_rubrique > a{color:#FFFFFF;text-decoration:none;text-align: center;} 
+ .wifeo_rubrique:hover > a{color:#FFFFFF;font-weight:bold;text-decoration:none} 
+ .wifeo_pagesousmenu > a{color:#333333;text-decoration:none} 
+ .wifeo_conteneur_menu{border-spacing:0px;width:100%;}
+  .wifeo_conteneur_menu{height:auto;width:100%}
+  .wifeo_pagemenu, .wifeo_rubrique{background:linear-gradient(top, #36CFC2 0%, #22BBAE 100%);
+  	background:-moz-linear-gradient(top, #36CFC2 0%, #22BBAE 100%);
+  	background:-webkit-linear-gradient(top, #36CFC2 0%,#22BBAE 100%);
+  	background:-ms-linear-gradient(top, #36CFC2 0%,#22BBAE 100%);
+  	background:-o-linear-gradient(top, #36CFC2 0%,#22BBAE 100%);
+  	width:100%}
+  	 .wifeo_conteneur_menu a{
+  	 	text-decoration:none;display:table-cell;
+  	 	vertical-align:middle;padding:0 5px;height:50px;
+  	 	-webkit-transition:all 0.50s ease;
+  	 	-moz-transition:all 0.50s ease;
+  	 	-ms-transition:all 0.50s ease;-o-transition:all 0.50s ease;
+  	 	transition:all 0.50s ease;
+  	 	width:160px;text-align:center} 
+  	 	.wifeo_sousmenu{max-height:0;width:100%;opacity:0;overflow:hidden;margin-left:0;visibility:hidden}
+  	 	 @media screen and (min-device-width:1024px){.wifeo_sousmenu{-webkit-transition:all 0.50s ease;-moz-transition:all 0.50s ease;-ms-transition:all 0.50s ease;-o-transition:all 0.50s ease;transition:all 0.50s ease}}
+  	 	  .wifeo_pagesousmenu{width:100%;display:table} 
+  	 	  .wifeo_sousmenu a{text-align:left;height:50px;background-color:#E7E7E7;border-left:2px solid #BFBFBF;border-right:2px solid #BFBFBF} 
+  	 	  .wifeo_sousmenu a:hover{background:#8D8D8D} 
+  	 	  .wifeo_rubrique:hover .wifeo_sousmenu{visibility:visible;opacity:1;max-height:15em;display:table}
+
+.wifeo_conteneur_menu{
+    border-spacing:0px;width:100%;
+    height:auto;width:100%;
+    text-decoration-color: black;
+    color: black !important;
+    
+    
+    
+}
+.wifeo_rubrique_2{
+    background-color : 827717 !important;
+   /* background-color: #e6e6e6;*/
+    background-color:beige;
+
+
+}
+  	 	  
